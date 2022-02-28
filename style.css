@@ -61,6 +61,11 @@
    max-height: 0;
    transition: max-height 0.5s ease-out;
 }
+.nav .nav-active {
+   color: black;
+   text-shadow: #BBCCCF 2px 2px;
+} 
+
 
 /* hamburger menu icon */
 .menu-icon {
@@ -354,6 +359,12 @@ input[type=submit]:hover {
       width: fit-content;
       margin: 20px;
       /* vertical-align: middle; */
+   }
+   .nav .nav-active {
+   text-decoration: underline;
+   text-decoration-color: grey;
+   text-underline-offset: 0.8rem;
+   text-shadow: none;
    }
    .nav-menu li {
       float: left;
