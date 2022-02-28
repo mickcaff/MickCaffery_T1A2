@@ -206,27 +206,27 @@ article{
    padding: 0 0 2vw 2vw;
 }
 .blog1 {
-   background: url("/images/blog1.jpg") center;
+   background: url("images/blog1.jpg") center;
    background-size: 150%;
 }
 .blog2 {
-   background: url("/images/blog2.jpg") center;
+   background: url("images/blog2.jpg") center;
    background-size: 150%;
 }
 .blog3 {
-   background: url("/images/blog3.jpg") center;
+   background: url("images/blog3.jpg") center;
    background-size: 180%;
 }
 .blog4 {
-   background: url("/images/blog4.jpg") center;
+   background: url("images/blog4.jpg") center;
    background-size: 150%;
 }
 .blog5 {
-   background: url("/images/blog5.jpg") center;
+   background: url("images/blog5.jpg") center;
    background-size: 150%;
 }
 .blog6 {
-   background: url("/images/blog6.jpg") center;
+   background: url("images/blog6.jpg") center;
    background-size: 150%;
 }
 .blog-date {
