@@ -245,25 +245,24 @@ article{
 .main-contact {
    display: flex;
    flex-direction: column;
-   background-color: lightblue;
+   background-color: whitesmoke;
 }
-.contact-form, .contact-details {
-   width: 50vw;
-   height: 100vw;
-} 
+.contact-form h3 {
+   font-size: 1.4rem;
+   font-weight: 500;
+   padding: 1rem 0 2rem;
+}
 input[type=text], textarea {
    width: 100%;
    padding: 12px;
    border: 1px solid grey;
    border-radius: 4px;
-   box-sizing: border-box;
+   font-size: 0.7rem;
    margin: 6px 0 16px 0;
-   resize: vertical;
 }
 input[type=submit] {
-   /* background-color: grey; */
-   padding: 12px 20px;
-   /* border: none; */
+   font-size: 0.7rem;
+   padding: 0.5rem 0.8rem;
    border-radius: 4px;
    cursor: pointer;
 }
@@ -273,24 +272,28 @@ input[type=submit]:hover {
 .contact-form {
    padding: 20px;
 }
+.contact-form label {
+   font-size: 0.8rem;
+}
 
-
-
-
-
-
-
+.contact-details{
+   /* width: 100%; */
+   padding: 1rem 2rem 4rem;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   /* text-align: center; */
+}
+.contact-items, .contact-socials {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 1rem 0 0 0;
+}
 .contact-details img {
    height: 1.5rem;
    display: block;
    /* padding: 2rem 0 0 0; */
-}
-.contact-details{
-   width: 100%;
-   padding: 0 2rem;
-   display: flex;
-   flex-direction: column;
-   background-color: whitesmoke;
 }
 .contact-details p {
    width: 40vw;
@@ -298,12 +301,6 @@ input[type=submit]:hover {
 }
 .contact-details a:visited {
    color: black;
-}
-.contact-details div {
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   padding: 1rem 0 0 0;
 }
 .contact-socials {
    width: 100%;
@@ -354,7 +351,7 @@ input[type=submit]:hover {
 
 /* menu responsiveness */
 @media only screen and (min-width: 550px) and (max-width: 799px) {
-    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
+   .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
       height: 40vw;
       width: 40vw;
    }
@@ -379,8 +376,8 @@ input[type=submit]:hover {
    .menu-icon {
       display: none;
    }
-
-/* main section */
+   
+   /* main section */
    .main-index {
       /* display: flex; */
       flex-direction: row;
@@ -393,8 +390,8 @@ input[type=submit]:hover {
       flex-grow: 1;
       width: 70vh;
    }
-
-/* main-about section */
+   
+   /* main-about section */
    .main-about {
       /* width: 50vw; */
    }
@@ -411,7 +408,7 @@ input[type=submit]:hover {
    .about-image {
       width: 40vw;
    }
-
+   
    /* main-blog section */
    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
       height: 25vw;
@@ -422,7 +419,19 @@ input[type=submit]:hover {
    .main-contact {
       flex-direction: row;
    }
-
+   .contact-form {
+      width: 50vw;
+      padding: 2rem 2rem 2rem 4rem;
+   }
+   .contact-items p {
+      padding: 0 0 0 2rem;
+      /* padding: 10vw; */
+   }
+   .contact-details {
+      margin: auto;
+      width: 25%;
+   }
+   
 }
 
 
