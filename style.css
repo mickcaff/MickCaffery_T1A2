@@ -314,6 +314,31 @@ input[type=submit]:hover {
 
 
 
+/* Blog pages individual */
+.blog-hero-main {
+   margin: 2vw 0 0 0;
+}
+
+.blog-hero-image {
+   height: 40vw;
+   width: 95vw;
+   margin: auto;
+}
+#bhi-1 {
+   background: url("images/blog1.jpg") center;
+   background-size: 100%;
+}
+.blog-main-title {
+   /* padding: 2rem; */
+}
+.blog-main-title h2 {
+   text-align: center;
+   padding: 3rem 0 0 0;
+}
+.blog-main-title p {
+   padding: 2rem 2rem 0 2rem;
+}
+
 
 
 
@@ -430,7 +455,10 @@ input[type=submit]:hover {
       margin: auto;
       width: 25%;
    }
+   .blog-hero-image {
+   height: 20vw;
    
+   }
 }
 
 
