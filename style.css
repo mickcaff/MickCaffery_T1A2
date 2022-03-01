@@ -235,13 +235,19 @@ article{
 .blog-date {
    font-size: 1.0rem;
 }
-.blog-title {
+.blog-title a {
    font-size: 1.8rem;
+   color: whitesmoke;
+   text-decoration: none;
+   transition: 0.2s;
 }
-
+.blog-title a:hover {
+   color:linen;
+   font-size: 2.0rem;
+}
 .main-blog img{
    width: 1.5rem;
-   padding: 2rem 0 0 0;
+   padding: 1rem 0 0 0;
 }
 
 /* contact section */
@@ -332,8 +338,47 @@ input[type=submit]:hover {
    flex-direction: column;
    align-items: center;
 }
-.blog-main-image {
+.blog1-main-image {
    background: url("images/blog1.jpg") center;
+   background-size: 100%;
+   height: 25vw;
+   width: 95%;
+   margin: 2vw;
+}
+.blog2-main-image {
+   background: url("images/blog2.jpg");
+   background-position: 0 35%;
+   background-size: 100%;
+   height: 25vw;
+   width: 95%;
+   margin: 2vw;
+}
+.blog3-main-image {
+   background: url("images/blog3.jpg") center;
+   background-size: 100%;
+   height: 25vw;
+   width: 95%;
+   margin: 2vw;
+}
+.blog4-main-image {
+   background: url("images/blog4.jpg");
+   background-position: 0 80%;
+   background-size: 100%;
+   height: 25vw;
+   width: 95%;
+   margin: 2vw;
+}
+.blog5-main-image {
+   background: url("images/blog5.jpg");
+   background-position: 0 90%;
+   background-size: 100%;
+   height: 25vw;
+   width: 95%;
+   margin: 2vw;
+}
+.blog6-main-image {
+   background: url("images/blog6.jpg");
+   background-position: 0 80%;
    background-size: 100%;
    height: 25vw;
    width: 95%;
