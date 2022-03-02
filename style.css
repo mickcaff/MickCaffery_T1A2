@@ -119,18 +119,18 @@
     background-color: green;
 }
 
-/* main-index styles */
+/* main-index styles (home page)*/
 .main-index {
    display: flex;
    flex-direction: column;
-   /* background-color: lightblue; */
+   background-color: rgb(36, 36, 39);
 }
 .intro {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
-   background-color: rgb(36, 36, 39);
+   /* background-color: rgb(36, 36, 39); */
    color: whitesmoke;
    padding: 10vw;
 }
@@ -187,7 +187,7 @@ article{
    font-weight: 500;
 }
 .title-blog p {
-   padding: 5vh 5vw 10vh;
+   padding: 5vh 5vw 5vh;
 }
 
 .main-blog {
@@ -234,10 +234,12 @@ article{
 }
 .blog-date {
    font-size: 1.0rem;
+   text-shadow: 1px 0px 10px black;
 }
 .blog-title a {
    font-size: 1.8rem;
    color: whitesmoke;
+   text-shadow: 1px 0px 10px black;
    text-decoration: none;
    transition: 0.2s;
 }
@@ -341,7 +343,7 @@ input[type=submit]:hover {
 .blog1-main-image {
    background: url("images/blog1.jpg") center;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
@@ -349,14 +351,14 @@ input[type=submit]:hover {
    background: url("images/blog2.jpg");
    background-position: 0 35%;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
 .blog3-main-image {
    background: url("images/blog3.jpg") center;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
@@ -364,7 +366,7 @@ input[type=submit]:hover {
    background: url("images/blog4.jpg");
    background-position: 0 80%;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
@@ -372,7 +374,7 @@ input[type=submit]:hover {
    background: url("images/blog5.jpg");
    background-position: 0 90%;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
@@ -380,7 +382,7 @@ input[type=submit]:hover {
    background: url("images/blog6.jpg");
    background-position: 0 80%;
    background-size: 100%;
-   height: 25vw;
+   height: 35vw;
    width: 95%;
    margin: 2vw;
 }
@@ -565,11 +567,12 @@ input[type=submit]:hover {
       flex-wrap: nowrap;
    }
    .intro {
-      flex-grow: 2;
+      /* flex-grow: 2; */
    }
    #intro-image-id {
-      flex-grow: 1;
+      /* flex-grow: 1; */
       width: 70vh;
+
    }
    
    /* main-about section */
@@ -624,6 +627,9 @@ input[type=submit]:hover {
    }
    .blog-leftcolumn {
    width: 75vw;   
+   }
+   .blog1-main-image, .blog2-main-image, .blog3-main-image, .blog4-main-image, .blog5-main-image, .blog6-main-image {
+      height: 25vw;
    }
    .blog-rightcolumn {
    width: 20vw;
