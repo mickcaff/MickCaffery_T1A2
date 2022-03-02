@@ -1,4 +1,9 @@
+:root {
+   --main-color: whitesmoke;
+   --main-border-color: rgb(235, 235, 235);
+}
 
+ 
 * {
    margin: 0;
    padding: 0;
@@ -17,11 +22,11 @@
 
 /* Header */
 .header {
-   background-color: whitesmoke;
+   background-color: var(--main-color);
    margin: 0;
    padding: 0;
    width: 100%;
-   border-bottom: 3px solid rgb(235, 235, 235);
+   border-bottom: 3px solid var(--main-border-color);
 }
 .avatar {
    display: inline-block;
@@ -43,7 +48,7 @@
 
 /* nav menu */
 .nav {
-   background-color: whitesmoke;
+   background-color: var(--main-color);
    width: 100%;
    height: 100%;
    position: fixed;
@@ -111,7 +116,7 @@
 /* Toggle menu icon */
 .menu-btn:checked ~ nav {
    max-height: 100%;
-   border-top: 20vh solid whitesmoke;
+   border-top: 20vh solid var(--main-color);
 }
 .menu-btn:checked ~ .menu-icon .navi-line {
     background: transparent;
@@ -137,7 +142,7 @@
    align-items: center;
    justify-content: space-evenly;
    /* background-color: rgb(36, 36, 39); */
-   color: whitesmoke;
+   color: var(--main-color);
    padding: 10vw;
 }
 .intro p {
@@ -147,7 +152,7 @@
    width: 100%;
 }
 .intro a {
-   color: whitesmoke;
+   color: var(--main-color);
    text-decoration: underline;
 }
 .intro a:hover {
@@ -160,7 +165,7 @@
 .main-about {
    display: flex;
    flex-direction: column;
-   background-color: whitesmoke;
+   background-color: var(--main-color);
    align-items: center;
 }
 article{
@@ -174,6 +179,11 @@ article{
    font-size: 1.8rem;
    font-weight: 500;
 }
+.main-about h5 {
+   padding: 5vh 0 2vh;
+   font-size: 1.3rem;
+   font-weight: 500;
+}
 .main-about p {
    padding: 0 5vw;
 }
@@ -184,7 +194,7 @@ article{
 
 /* main-blog section */
 .title-blog {
-   background-color: whitesmoke;
+   background-color: var(--main-color);
    text-align: center;
 }
 .title-blog h2 {
@@ -197,7 +207,7 @@ article{
 }
 
 .main-blog {
-   background-color: whitesmoke;
+   background-color: var(--main-color);
    display: flex;
    flex-wrap: wrap;
    /* align-items: center; */
@@ -211,7 +221,7 @@ article{
    display: flex;
    flex-direction: column;
    justify-content: end;
-   color: whitesmoke;
+   color: var(--main-color);
    padding: 0 0 2vw 2vw;
 }
 .blog1 {
@@ -244,7 +254,7 @@ article{
 }
 .blog-title a {
    font-size: 1.8rem;
-   color: whitesmoke;
+   color: var(--main-color);
    text-shadow: 1px 0px 10px black;
    text-decoration: none;
    transition: 0.2s;
@@ -262,7 +272,7 @@ article{
 .main-contact {
    display: flex;
    flex-direction: column;
-   background-color: whitesmoke;
+   background-color: var(--main-color);
 }
 .contact-form h3 {
    font-size: 1.4rem;
@@ -412,7 +422,7 @@ input[type=submit]:hover {
    width: 90vw;
    padding: 0.5rem;
    margin: 2vw auto 0;
-   border: 3px solid rgb(235, 235, 235);
+   border: 3px solid var(--main-border-color);
 }
 .blog-rightcolumn .blog-about-portrait {
    float: right;
@@ -438,7 +448,7 @@ input[type=submit]:hover {
 .blog-recent-block {
    display: flex;
    padding: 0.5rem 0;
-   border-top: 1px solid rgb(235, 235, 235);
+   border-top: 1px solid var(--main-border-color);
    /* align-items: center; */
 }
 .blog-recent-block a{
@@ -514,6 +524,7 @@ input[type=submit]:hover {
    justify-content: center;
    width: 100%;
    height: 15vh;
+   background-color: var(--main-color);
 }
 .socials img {
    height: 1.5rem;
