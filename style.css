@@ -1,7 +1,15 @@
 /* main color variables */
 :root {
-   --main-color: whitesmoke;
+   --main-color: #f7f8f9;
    --main-border-color: rgb(235, 235, 235);
+}
+@font-face {
+   font-family: Bebas;
+   src: url(Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+   font-family: noto-sans;
+   src: url(Fonts/Noto_Sans/NotoSans-Regular.ttf);
 }
 
 /* html document container overal settings */
@@ -30,10 +38,11 @@
    display: inline-block;
    position: absolute;
    top: 0px;
-   font-size: 2rem;
+   font-size: 1.8rem;
    margin: 28px 0 0 20px;
    color: black;
    text-decoration: none;
+   font-family: "Bebas";
 }
 
 /* Navigation links styles */
@@ -52,6 +61,8 @@
    padding: 0;
 }
 .nav-menu a {
+   font-family: "noto-sans";
+   font-size: 0.9rem;
    color: grey;
    display: block;
    padding: 40px;
