@@ -8,17 +8,20 @@ GitHub repo link:
 
 https://github.com/mickcaff/T1A2-Portfolio
 
-Purpose
+
+Description of portfolio
+
+- Purpose
 
 
 
-Functionality / features
+- Functionality / features
 
-Sitemap
+- Sitemap
 
 ![Sitemap](docs/T1A2-Portfolio.drawio.png)
 
-Screenshots
+- Screenshots
 
 ![](docs)
 ![](docs)
@@ -31,6 +34,7 @@ Screenshots
 
 
 
-Target audience
+- Target audience
 
-Tech stack
+
+- Tech stack
