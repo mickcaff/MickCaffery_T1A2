@@ -142,6 +142,9 @@
    color: var(--main-color);
    padding: 10vw;
 }
+.intro h2 {
+   font-size: 1.2rem;
+}
 .intro p {
    padding: 1.5rem 0;
 }
@@ -610,6 +613,9 @@ input[type=submit]:hover {
    .main-index {
       flex-direction: row;
       flex-wrap: nowrap;
+   }
+   .intro h2 {
+   font-size: 1.5rem;
    }
    #intro-image-id {
       width: 70vh;
