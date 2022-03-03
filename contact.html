@@ -1,86 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   
-   <!-- header  -->
-   <header class="header">
-      <!-- name and avatar -->
-      <!-- <div class="logo-avatar"> -->
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mick Caffery - Contact</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <!-- header  -->
+      <header class="header">
+         <!-- avatar and logo name -->
          <a href="index.html"><img class="avatar" src="images/avatar.jpg" alt="Wombat"></a>
          <a href="index.html" class="logo">Mick <br> Caffery</a>
-      <!-- </div> -->
-      <!-- hamburger icon -->
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navi-line"></span></label>
-      <!-- navigation links -->
-      
-      <nav class="nav">
-         <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a class="nav-active" href="contact.html">Contact</a></li>
-         </ul>
-      </nav>
-   </header>
+         
+         <!-- hamburger icon -->
+         <input class="menu-btn" type="checkbox" id="menu-btn" />
+         <label class="menu-icon" for="menu-btn"><span class="navi-line"></span></label>
+         
+         <!-- navigation links -->
+         <nav class="nav">
+            <ul class="nav-menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a class="nav-active" href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
 
-   <main class="main-contact">
-      <section class="contact-form">
-         <h3>
-            Get in touch
-         </h3>
-         <form action="">
-            <label for="fname">First Name *</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <!-- contact form -->
+      <main class="main-contact">
+         <section class="contact-form">
+            <h3>
+               Get in touch
+            </h3>
+            <form action="">
+               <label for="fname">First Name *</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name *</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+               <label for="lname">Last Name *</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="email">Email *</label>
-            <input type="text" id="email" name="email" placeholder="Email address..">
+               <label for="email">Email *</label>
+               <input type="text" id="email" name="email" placeholder="Email address..">
 
-            <label for="message">Message *</label>
-            <textarea name="message" id="message" placeholder="Leave a message.." style="height:200px"></textarea>
+               <label for="message">Message *</label>
+               <textarea name="message" id="message" placeholder="Leave a message.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
-         </form>
-      </section>
-      
-      <section class="contact-details">
-         <div class="contact-items">
-            <img src="images/location.svg" alt="location">
-            <p>41 Pacific Tce, Coolum Beach, Qld, 4573</p>
-         </div>
-         <div class="contact-items">
-            <img src="images/phone.svg" alt="phone">
-            <p>+61 414 882 927</p>
-         </div>
-         <div class="contact-items">
-            <img src="images/email.svg" alt="email">
-            <p>mcaffery@outlook.com</p>
-         </div>
-         <div class="contact-items">
-            <img src="images/linkedin.svg" alt="linkedin">
-            <p><a href="https://www.linkedin.com/in/michael-caffery-a4291459/">LinkedIn</a></p>
-         </div>
-         <div class="contact-items">
-            <img src="images/github.svg" alt="github">
-            <p><a href="https://github.com/mickcaff">Github</a></p>
-         </div>
-         <div class="contact-items">
-            <img src="images/document.svg" alt="document">
-            <p><a href="pdf/Resume.pdf" target="_blank">Link to resume</a></p>
-         </div>
-      </section>
-
-   </main>
-
-</body>
+               <input type="submit" value="Submit">
+            </form>
+         </section>
+         
+         <!-- contact details and socials -->
+         <section class="contact-details">
+            <div class="contact-items">
+               <img src="images/location.svg" alt="location">
+               <p>41 Pacific Tce, Coolum Beach, Qld, 4573</p>
+            </div>
+            <div class="contact-items">
+               <img src="images/phone.svg" alt="phone">
+               <p>+61 414 882 927</p>
+            </div>
+            <div class="contact-items">
+               <img src="images/email.svg" alt="email">
+               <p>mcaffery@outlook.com</p>
+            </div>
+            <div class="contact-items">
+               <img src="images/linkedin.svg" alt="linkedin">
+               <p><a href="https://www.linkedin.com/in/michael-caffery-a4291459/" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="contact-items">
+               <img src="images/github.svg" alt="github">
+               <p><a href="https://github.com/mickcaff" target="_blank">GitHub</a></p>
+            </div>
+            <div class="contact-items">
+               <img src="images/document.svg" alt="document">
+               <p><a href="pdf/Resume.pdf" target="_blank">Link to resume</a></p>
+            </div>
+         </section>
+      </main>
+   </body>
 </html>

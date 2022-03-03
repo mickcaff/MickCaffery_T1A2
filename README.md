@@ -10,11 +10,26 @@ https://github.com/mickcaff/T1A2-Portfolio
 
 Purpose
 
+
+
 Functionality / features
 
 Sitemap
 
+![Sitemap](docs/T1A2-Portfolio.drawio.png)
+
 Screenshots
+
+![](docs)
+![](docs)
+![](docs)
+![](docs)
+![](docs)
+![](docs)
+![](docs)
+![](docs)
+
+
 
 Target audience
 

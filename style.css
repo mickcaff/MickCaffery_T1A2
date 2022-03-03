@@ -1,8 +1,10 @@
+/* main color variables */
 :root {
    --main-color: whitesmoke;
    --main-border-color: rgb(235, 235, 235);
 }
 
+/* html document container overal settings */
 * {
    margin: 0;
    padding: 0;
@@ -10,16 +12,7 @@
    font-family: sans-serif;
 }
 
-/* Nav Styles */
-.nav-menu {
-   list-style: none;
-   padding: 0;
-}
-.nav-menu a{
-   text-decoration: none;
-}
-
-/* Header */
+/* Header, avatar and logo styles */
 .header {
    background-color: var(--main-color);
    margin: 0;
@@ -29,7 +22,6 @@
 }
 .avatar {
    display: inline-block;
-   /* float: left; */
    width: 90px;
    margin: 15px 0 15px 20px;
    border-radius: 50%;
@@ -40,12 +32,11 @@
    top: 0px;
    font-size: 2rem;
    margin: 28px 0 0 20px;
-   /* margin-left: 20px; */
    color: black;
    text-decoration: none;
 }
 
-/* nav menu */
+/* Navigation links styles */
 .nav {
    background-color: var(--main-color);
    width: 100%;
@@ -56,17 +47,16 @@
    max-height: 0;
    transition: max-height 0.3s ease-out;
 }
-.nav ul {
-   /* display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: ; */
+.nav-menu {
+   list-style: none;
+   padding: 0;
 }
 .nav-menu a {
    color: grey;
    display: block;
    padding: 40px;
    text-align: center;
+   text-decoration: none;
 }
 .nav-menu a:hover {
    color: black;
@@ -74,11 +64,9 @@
 .nav .nav-active {
    color: black;
    font-weight: 600;
-   /* text-shadow: 0px 0px 5px grey; */
 } 
 
-
-/* hamburger menu icon */
+/* hamburger menu icon - mobile view */
 .menu-icon {
    cursor: pointer;
    float: right;
@@ -112,7 +100,7 @@
    display: none;
 }
 
-/* Toggle menu icon */
+/* Hamburger menu icon - toggle */
 .menu-btn:checked ~ nav {
    max-height: 100%;
    border-top: 20vh solid var(--main-color);
@@ -129,7 +117,7 @@
     top:0;
 }
 
-/* main-index styles (home page)*/
+/* main-index - intro section and portrait (home page) - styles */
 .main-index {
    display: flex;
    flex-direction: column;
@@ -140,7 +128,6 @@
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
-   /* background-color: rgb(36, 36, 39); */
    color: var(--main-color);
    padding: 10vw;
 }
@@ -160,6 +147,32 @@
    text-underline-offset: 1rem;
 }
 
+/* footer socials styles */
+.socials {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 15vh;
+   background-color: var(--main-color);
+}
+.socials img {
+   height: 1.5rem;
+   /* padding: 5px 0; */
+}
+.socials a {
+   padding: 5vh 15px;
+}
+#li:hover {
+   height: 2.5rem;
+   transform: rotate(-45deg);
+}
+#gh:hover {
+   height: 2.5rem;
+   transform: rotate(45deg);
+}
+
+
+/* ----------about.html styles----------- */
 /* main-about styles */
 .main-about {
    display: flex;
@@ -171,7 +184,6 @@ article{
    display: flex;
    flex-direction: column;
    align-items: center;
-   /* height: 150vh; */
 }
 .main-about h4 {
    padding: 5vh 0 2vh;
@@ -191,7 +203,9 @@ article{
    padding: 5vh 0 0;
 }
 
-/* main-blog section */
+
+/* ----------blog.html styles----------- */
+/* main-blog section & title styles*/
 .title-blog {
    background-color: var(--main-color);
    text-align: center;
@@ -205,11 +219,11 @@ article{
    padding: 5vh 5vw 5vh;
 }
 
+/* Blog series - tiles, pictures, headings, and dates styles*/
 .main-blog {
    background-color: var(--main-color);
    display: flex;
    flex-wrap: wrap;
-   /* align-items: center; */
    justify-content: space-evenly;
    padding: 5vw;
 }
@@ -267,7 +281,9 @@ article{
    padding: 1rem 0 0 0;
 }
 
-/* contact section */
+
+/* ----------contact.html styles----------- */
+/* contact form styles*/
 .main-contact {
    display: flex;
    flex-direction: column;
@@ -302,13 +318,11 @@ input[type=submit]:hover {
    font-size: 0.8rem;
 }
 
+/* contact details and socials styles */
 .contact-details{
-   /* width: 100%; */
    padding: 1rem 2rem 4rem;
    display: flex;
    flex-direction: column;
-   /* align-items: center; */
-   /* text-align: center; */
 }
 .contact-items, .contact-socials {
    display: flex;
@@ -319,14 +333,10 @@ input[type=submit]:hover {
 .contact-details img {
    height: 1.5rem;
    display: block;
-   /* padding: 2rem 0 0 0; */
 }
 .contact-details p {
    width: 40vw;
    font-size: 0.8rem;
-}
-.contact-details a {
-   text-decoration: ;
 }
 .contact-items a:link {
    color: black;
@@ -336,8 +346,8 @@ input[type=submit]:hover {
 }
 
 
-
-/* Blog pages individual */
+/* ----------blog1 -> 6.html styles----------- */
+/* Blog pages individual styles*/
 .blog-article-page {
    display: flex;
    flex-direction: column;
@@ -348,8 +358,9 @@ input[type=submit]:hover {
 }
 .blog-rightcolumn {
    width: 100vw;
-   /* margin: 0; */
 }
+
+/* left column main article styles */
 .main-article-card {
    display: flex;
    flex-direction: column;
@@ -412,17 +423,19 @@ input[type=submit]:hover {
    padding: 1rem 8vw;
    color: rgb(97, 97, 97);
 }
+
+/* right column - about me, recent posts and follow me styles */
 .blog-rightcolumn {
    display: flex;
    flex-direction: column;
 }
 .card1, .card2, .card3 {
-   /* background-color: lightblue; */
    width: 90vw;
    padding: 0.5rem;
    margin: 2vw auto 0;
    border: 3px solid var(--main-border-color);
 }
+/* card1 - about me styles */
 .blog-rightcolumn .blog-about-portrait {
    float: right;
    height: 7rem;
@@ -439,6 +452,7 @@ input[type=submit]:hover {
    font-size: 0.7rem;
    padding: 0.5rem 0;
 }
+/* card2 - recent posts styles */
 .card2 h3 {
    font-size: 1.1rem;
    font-weight: 500;
@@ -448,7 +462,6 @@ input[type=submit]:hover {
    display: flex;
    padding: 0.5rem 0;
    border-top: 1px solid var(--main-border-color);
-   /* align-items: center; */
 }
 .blog-recent-block a{
    color:darkslateblue;
@@ -501,6 +514,7 @@ input[type=submit]:hover {
    padding: 1.0rem;
    font-size: 0.8rem;
 }
+/* card3 - follow me, socials styles */
 .card3 h3 {
    font-size: 1.0rem;
    font-weight: 500;
@@ -516,34 +530,9 @@ input[type=submit]:hover {
 }
 
 
-
-/* footer socials styles */
-.socials {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   height: 15vh;
-   background-color: var(--main-color);
-}
-.socials img {
-   height: 1.5rem;
-   /* padding: 5px 0; */
-}
-.socials a {
-   padding: 5vh 15px;
-}
-#li:hover {
-   height: 2.5rem;
-   transform: rotate(-45deg);
-}
-#gh:hover {
-   height: 2.5rem;
-   transform: rotate(45deg);
-}
-
-
-/* menu responsiveness */
+/* -------- Screen Size Responsiveness ----------- */
 @media only screen and (min-width: 550px) and (max-width: 799px) {
+   /* blog.html page */
    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
       height: 40vw;
       width: 40vw;
@@ -551,6 +540,7 @@ input[type=submit]:hover {
 }
 
 @media only screen and (min-width: 800px) {
+   /* Header */
    .nav {
       max-height: none;
       top: 0;
@@ -558,7 +548,6 @@ input[type=submit]:hover {
       float: right;
       width: fit-content;
       margin: 20px;
-      /* vertical-align: middle; */
    }
    .nav .nav-active {
    text-decoration: underline;
@@ -580,25 +569,16 @@ input[type=submit]:hover {
       display: none;
    }
    
-   /* main section */
+   /* index.html page */
    .main-index {
-      /* display: flex; */
       flex-direction: row;
       flex-wrap: nowrap;
    }
-   .intro {
-      /* flex-grow: 2; */
-   }
    #intro-image-id {
-      /* flex-grow: 1; */
       width: 70vh;
-
    }
    
-   /* main-about section */
-   .main-about {
-      /* width: 50vw; */
-   }
+   /* about.html page */
    .main-about article {
       width: 40vw;
    }
@@ -613,13 +593,13 @@ input[type=submit]:hover {
       width: 40vw;
    }
    
-   /* main-blog section */
+   /* blog.html page */
    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
       height: 25vw;
       width: 25vw;
    }
 
-   /* main-contact section */
+   /* contact.html page */
    .main-contact {
       flex-direction: row;
    }
@@ -629,7 +609,6 @@ input[type=submit]:hover {
    }
    .contact-items p {
       padding: 0 0 0 2rem;
-      /* padding: 10vw; */
    }
    .contact-details {
       margin: auto;
@@ -637,10 +616,9 @@ input[type=submit]:hover {
    }
    .blog-hero-image {
    height: 20vw;
-   
    }
 
-   /* individual blog article section */
+   /* blog1 -> 6.html pages */
    .blog-article-page {
    flex-direction: row;
    align-items: unset;
@@ -658,7 +636,6 @@ input[type=submit]:hover {
    padding: 1rem 10vw;
    }
    .card1, .card2, .card3 {
-   /* background-color: lightblue; */
    width: 17rem;
    }
    .sticky {
@@ -668,7 +645,6 @@ input[type=submit]:hover {
    .blog-footer {
    height: 20vh;
    }
-
 }
 
 
