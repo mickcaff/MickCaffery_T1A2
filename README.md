@@ -1,12 +1,12 @@
 
 Portfolio website link:
 
-https://mickcaff.github.io/T1A2-Portfolio/
+https://mickcaff.github.io/MickCaffery_T1A2/src/
 
 
 GitHub repo link:
 
-https://github.com/mickcaff/T1A2-Portfolio
+https://github.com/mickcaff/MickCaffery_T1A2
 
 
 Description of portfolio
