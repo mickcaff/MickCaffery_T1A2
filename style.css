@@ -203,6 +203,26 @@ article{
    padding: 5vh 0 0;
 }
 
+/* Skills teck stack styles */
+.tech-stack {
+   padding: 5vh 0 0 0;
+}
+
+.tech-stack ul {
+   columns: 2;
+   padding: 0vh 0 10vh 0;
+}
+.tech-stack li {
+   list-style: none;
+   font-size: 0.7rem;
+   padding: 1rem 0.8vw;
+}
+.tech-stack img {
+   height: 2rem;
+   vertical-align: middle;
+   padding: 0 0.2rem 0 0;
+}
+
 
 /* ----------blog.html styles----------- */
 /* main-blog section & title styles*/
@@ -537,6 +557,12 @@ input[type=submit]:hover {
       height: 40vw;
       width: 40vw;
    }
+
+   /* about.html page */
+   .tech-stack ul {
+   columns: 3;
+   padding: 0 0 15vh 0;
+   }
 }
 
 @media only screen and (min-width: 800px) {
@@ -592,6 +618,10 @@ input[type=submit]:hover {
    .about-image {
       width: 40vw;
    }
+   .tech-stack ul {
+   columns: 4;
+   padding: 0 0 15vh 0;
+}
    
    /* blog.html page */
    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
