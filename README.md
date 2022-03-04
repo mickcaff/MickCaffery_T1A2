@@ -15,11 +15,11 @@ The purpose of this website is to showcase myself as a software developer to emp
 
 # Functionality / features
 
-The website has adopted a simple and classic aesthetic with a common theme, so as to deliver the information with clarity in a straightforward manner. 
+The website has adopted a simple and classic aesthetic with a common theme, so as to deliver the information in a straightforward manner with a high degree of clarity. 
 
 ### The website contains the following features:
 
-- A simple **navigation header** displays my name and navigational links. This is used on all pages throughout the website. 
+- A simple **navigation header** displays my name and navigational links. This is used to navigate between all the main pages. 
 
 - The **Home page** contains a hero photo of myself and the short introductory paragraph, followed by a link to my pdf resume. The home page footer contains links to my LinkedIn and GitHub accounts. 
 

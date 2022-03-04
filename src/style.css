@@ -11,6 +11,18 @@
    font-family: noto-sans;
    src: url(Fonts/Noto_Sans/NotoSans-Regular.ttf);
 }
+@font-face {
+   font-family: open-sans;
+   src: url(Fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+@font-face {
+   font-family: roboto-slab;
+   src: url(Fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+@font-face {
+   font-family: roboto-slab-bold;
+   src: url(Fonts/Roboto_Slab/static/RobotoSlab-SemiBold.ttf);
+}
 
 /* html document container overal settings */
 * {
@@ -62,7 +74,7 @@
 }
 .nav-menu a {
    font-family: "noto-sans", sans-serif;
-   font-size: 0.9rem;
+   font-size: 1.0rem;
    color: grey;
    display: block;
    padding: 40px;
@@ -132,32 +144,41 @@
 .main-index {
    display: flex;
    flex-direction: column;
-   background-color: rgb(36, 36, 39);
+   /* background-color: rgb(36, 36, 39); */
 }
 .intro {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
-   color: var(--main-color);
+   color: #233742;
    padding: 10vw;
 }
 .intro h2 {
    font-size: 1.2rem;
+   font-family: "open-sans", sans-serif;
 }
 .intro p {
    padding: 1.5rem 0;
+   font-family: "roboto-slab", sans-serif;
+}
+.intro p span {
+   font-family: "roboto-slab-bold", sans-serif;
 }
 #intro-image-id {
    width: 100%;
 }
 .intro a {
-   color: var(--main-color);
+   color: #233742;
    text-decoration: underline;
+   text-underline-offset: 0.5rem;
+   font-family: "roboto-slab", sans-serif;
+   transition: 0.5s;
 }
 .intro a:hover {
-   color: gold;
-   text-decoration: green underline wavy;
+   color: #4B39D5;
+   font-size: 1.5rem;
+   text-decoration: underline;
    text-underline-offset: 1rem;
 }
 
@@ -200,11 +221,13 @@ article{
    align-items: center;
 }
 .main-about h4 {
+   font-family: "open-sans", sans-serif;
    padding: 5vh 0 2vh;
    font-size: 1.8rem;
    font-weight: 500;
 }
 .main-about h5 {
+   font-family: "open-sans", sans-serif;
    padding: 5vh 0 2vh;
    font-size: 1.3rem;
    font-weight: 500;
@@ -246,6 +269,7 @@ article{
 }
 .title-blog h2 {
    padding: 5vh 0 0 0;
+   font-family: "open-sans", sans-serif;
    font-size: 2.2rem;
    font-weight: 500;
 }
@@ -300,6 +324,7 @@ article{
    text-shadow: 1px 0px 10px black;
 }
 .blog-title a {
+   font-family: "open-sans", sans-serif;
    font-size: 1.8rem;
    color: var(--main-color);
    text-shadow: 1px 0px 10px black;
@@ -566,6 +591,7 @@ input[type=submit]:hover {
 
 /* -------- Screen Size Responsiveness ----------- */
 @media only screen and (min-width: 550px) and (max-width: 799px) {
+
    /* blog.html page */
    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
       height: 40vw;
@@ -600,7 +626,7 @@ input[type=submit]:hover {
       float: left;
    }
    .nav-menu a {
-      padding: 30px;
+      padding: 25px;
    }
    .nav-menu a:hover {
       background-color: transparent;
@@ -614,8 +640,17 @@ input[type=submit]:hover {
       flex-direction: row;
       flex-wrap: nowrap;
    }
+   .intro {
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0 5vw 0 5vw;
+   }
    .intro h2 {
-   font-size: 1.5rem;
+   font-size: 2.5rem;
+   }
+   .intro p {
+      font-size: 1.0rem;
+      padding: 2rem 0 2rem 0;
    }
    #intro-image-id {
       width: 70vh;
@@ -694,5 +729,17 @@ input[type=submit]:hover {
    }
 }
 
-
+@media only screen and (min-width: 1250px) {
+   /* index.html page */
+   .intro {
+   padding: 0 15vw 0 5vw;
+   }
+   .intro h2 {
+   font-size: 4.5rem;
+   }
+   .intro p {
+      font-size: 1.3rem;
+      letter-spacing: 0.2px;
+   }
+}
 
