@@ -1,0 +1,191 @@
+commit b9cc05f236ae6287d70b598ae69e1dc78dcb94c6
+Author: Mick <mcaffery@outlook.com>
+Date:   Sun Mar 6 20:32:52 2022 +1000
+
+    final errors fixed
+
+commit 9bf70fb113b48e52c1b3a93d70a7663699c48992
+Author: Mick <mcaffery@outlook.com>
+Date:   Sun Mar 6 11:29:18 2022 +1000
+
+    Updated README and website screenshots
+
+commit 7a47cba4b3a9f72f6ff68a0d8fdc1a0f7bca9da1
+Author: Mick <mcaffery@outlook.com>
+Date:   Sun Mar 6 11:03:45 2022 +1000
+
+    Updated about me section
+
+commit cc301af0b3a2412292a82ceecb20b98861f90889
+Author: Mick <mcaffery@outlook.com>
+Date:   Fri Mar 4 18:02:25 2022 +1000
+
+    Updated index.html font
+
+commit 985cd55fcccb39d4cbfbd518fc0d4e9d2b9c0017
+Author: Mick <mcaffery@outlook.com>
+Date:   Fri Mar 4 16:03:49 2022 +1000
+
+    README.md updated
+
+commit 71d68a11596bdaf98770153415a731e4d3390cac
+Author: Mick <mcaffery@outlook.com>
+Date:   Fri Mar 4 14:46:21 2022 +1000
+
+    updated avatar
+
+commit 9121472524f0e143778f7bd49c72f5ef5e0d68dd
+Author: Mick <mcaffery@outlook.com>
+Date:   Fri Mar 4 10:06:16 2022 +1000
+
+    updated font family
+
+commit d085b5602ccc923c6a762ad5a198b6353423f8f7
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 18:54:26 2022 +1000
+
+    Replaced sitemap with one generated from xml-sitemaps.com
+
+commit 774c94ff81a2181409e0b99bc9815aaf635387ac
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 16:06:01 2022 +1000
+
+    Updated sitemap.xml head
+
+commit f854587a82cddf0101e9c7b66b344f4b1ad5cc29
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 15:58:54 2022 +1000
+
+    Checking git push to renamed repo
+
+commit ebdc9ba903836f822b94d548bb963161e0a9b9e4
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 15:16:43 2022 +1000
+
+    Re-organised git repo file structure
+
+commit e77da5eb0d758340042a4911a28fa53e25e99699
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 14:50:41 2022 +1000
+
+    Fix error in sitemap.xml
+
+commit c960b04bbfa1c1e6887438648bc863a9b067fb47
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 14:32:26 2022 +1000
+
+    final font size changes
+
+commit f0dd33b184f565f14308eda1b863db70a7e96dd7
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 14:05:04 2022 +1000
+
+    updated fonts
+
+commit c523eb84b98b75c274e3d73004848432a0e2cd8d
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 12:25:29 2022 +1000
+
+    added tech stack to about page
+
+commit 1a8eca9655c0f72b2f3f2e400b31aea822954bf5
+Author: Mick <mcaffery@outlook.com>
+Date:   Thu Mar 3 10:02:06 2022 +1000
+
+    Further comments added to HTML & CSS, code clean up
+
+commit e1828f65788e573a942cc89d9266739a348cc46e
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 21:17:04 2022 +1000
+
+    site map added
+
+commit d47655c7b1b3ce808958c6f89d81bbee122c4ed5
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 21:15:08 2022 +1000
+
+    Site map .xml added
+
+commit 745dcc60c17e23a8fa6b462c5728bdc071711404
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 15:18:22 2022 +1000
+
+    Added :root color variable, adjusted 'about' headers
+
+commit 4c846ecf51ff5ac5d65f8b983600ef20f343d5c8
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 14:33:59 2022 +1000
+
+    fixed mobile navigation menu
+
+commit b3324704fee0c7287c2c2b72438e2bf8e551236a
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 13:48:28 2022 +1000
+
+    Optimise image size, pdf resume linked
+
+commit fbd7456f5e9222e1bdfc920317caa5fbe9bc48d0
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Mar 2 08:54:29 2022 +1000
+
+    Added all 6 blog post html pages
+
+commit b8b867ae0580e040d27b5d3af3357b911c723832
+Author: Mick <mcaffery@outlook.com>
+Date:   Tue Mar 1 17:18:06 2022 +1000
+
+    Added the blog article template to all six blog posts
+
+commit 6ce222dca218af67f5c85c9b1f436e0444b15624
+Author: Mick <mcaffery@outlook.com>
+Date:   Tue Mar 1 15:41:26 2022 +1000
+
+    Blog article rough copy finished
+
+commit d0db2478198b7ad0e28826b7830c7431f724d692
+Author: Mick <mcaffery@outlook.com>
+Date:   Tue Mar 1 10:10:42 2022 +1000
+
+    Blog article draft  layout added
+
+commit 2d32dec287e62b539df791b16ad35f38bb363054
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 14:59:37 2022 +1000
+
+    header links color
+
+commit d8aa6cd974136f6f16245172dd9069f0d8f258c7
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 14:11:42 2022 +1000
+
+    Fixed link colors and header border
+
+commit 9d7d97e114eaf56d88b64144a2ab5aa1ae55d7ef
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 13:41:08 2022 +1000
+
+    Further fixes to images
+
+commit 9d2d541de56ed7202ca39ffe4b8c3b9db3592660
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 13:31:50 2022 +1000
+
+    Fix image links
+
+commit 3ecb5defac14bde32bad7f6ebbad0b08818337e7
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 13:22:24 2022 +1000
+
+    Rough draft finished
+
+commit e9b96ef4c18731143485059a07958cffad831765
+Author: Mick <mcaffery@outlook.com>
+Date:   Mon Feb 28 11:23:05 2022 +1000
+
+    Near complete portfolio
+
+commit 13ab54442e8df168bf959500e4664590d3cc5c6e
+Author: Mick <mcaffery@outlook.com>
+Date:   Wed Feb 23 15:43:39 2022 +1000
+
+    Initial Commit
