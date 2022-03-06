@@ -10,7 +10,7 @@
 
 # Purpose
 
-The purpose of this website is to showcase myself as a software developer to employers in the software industry, and prospective clients. The website provides information about my professional background, skills, interest and coding abilities.
+The purpose of this website is to showcase myself as a software developer to employers, and prospective clients. The website provides information about my professional background, skills, interest and coding abilities.
 
 
 # Functionality / features
@@ -19,11 +19,11 @@ The website has adopted a simple and classic aesthetic with a common theme, so a
 
 ### The website contains the following features:
 
-- A simple **navigation header** displays my name and navigational links. This is used to navigate between all the main pages. 
+- A simple **navigation header** displays my name, avatar and navigational links. This is used to navigate between all the main pages. 
 
-- The **Home page** contains a hero photo of myself and the short introductory paragraph, followed by a link to my pdf resume. The home page footer contains links to my LinkedIn and GitHub accounts. 
+- The **home page** contains a hero photo of myself and the short introductory paragraph, followed by a link to my pdf resume. The home page footer contains links to my LinkedIn and GitHub accounts. 
 
-- The **about page** details my professional backstory, along with information about my interests, skills, professional experience and tech stack. 
+- The **about page** details my professional backstory, along with information about my interests, development skills, and tech stack. 
 
 - The **blog page** simply lays out all blog posts in a grid formation. Each blog has a hero photo which is clearly displayed on a square tile, with blog title and date overlayed. 
 
@@ -34,7 +34,7 @@ The website has adopted a simple and classic aesthetic with a common theme, so a
 
 # Sitemap
 
-As the sitemap below details, each page is linked to each other. The blog posts are linked to the blog page. LinkedIn, GitHub and Resume PDF are linked externally to a new tab. 
+As the sitemap below details how each page is linked to each other. The main pages can be navigated to from any of the main pages. The blog posts are linked to the blog page. LinkedIn, GitHub and Resume PDF are linked externally to a new tab. 
 
 ![Sitemap](docs/T1A2-Portfolio.drawio.png)
 
@@ -78,4 +78,4 @@ The target audiences are prospective clients and employers. I have made the assu
 
 # Tech stack
 
-The site was built and styled by myself with basic **HTML** and **CSS**. The site has been deployed on **GitHub Pages**. 
+The site was built and styled by myself with basic **HTML** and **CSS**. There was no use of any framework. The site has been deployed on **GitHub Pages**. 
