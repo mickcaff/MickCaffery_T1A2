@@ -6,6 +6,9 @@
 
 #### GitHub repo link: https://github.com/mickcaff/T1A2-Assignment-Portfolio
 
+# Introduction
+
+Built in week 3 of Coder Academy's Full-Stack Web Development Bootcamp, this was an individual assignment that required the design and build of a static HTML/CSS website, which could be used as a portfolio.
 
 
 # Purpose
