@@ -1,10 +1,10 @@
 # T1A2 - Portfolio Website
 
 
-#### Portfolio website link: https://mickcaff.github.io/MickCaffery_T1A2/src/
+#### Portfolio website link: https://mickcaff.github.io/T1A2-Assignment-Portfolio/src/
 
 
-#### GitHub repo link: https://github.com/mickcaff/MickCaffery_T1A2
+#### GitHub repo link: https://github.com/mickcaff/T1A2-Assignment-Portfolio
 
 
 
